@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7454960199277533962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7454960199277533964}
+  - component: {fileID: 7454960199277533963}
+  - component: {fileID: 7454960199277533965}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7454960199277533964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7454960199277533962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 538.25, y: 284.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7454960199277533963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7454960199277533962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64dd5dfb688b0eb4eb7cf00c565d880d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableStandardInput: 1
+  accelAxisName: Accel
+  brakeAxisName: Brake
+  steerAxisName: Horizontal
+  driftButtonName: Drift
+  boostButtonName: Boost
+  itemButtonName: Item
+  cameraXAxisName: Camera X
+  cameraYAxisName: Camera Y
+  lookBackButtonName: Look Back
+  restartButtonName: Restart
+  enableMobileInput: 1
+  mobileAutoAccel: 0
+  mobileSteerAccel: 0.7
+  mobileDriftAccel: 1
+  mobileBoostAccel: 1
+  mobileDriftHoldSteer: 0.3
+  mobileSteer: 0
+--- !u!114 &7454960199277533965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7454960199277533962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe9e5770343e34e9ca7ff7797dccc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joyStick: {fileID: 0}
+  ui_data: {fileID: 11400000, guid: 9eb7c5c7318ebed46854ef0b3ee00c5e, type: 2}
+  arrowControls_ui:
+  - {fileID: 0}
+  - {fileID: 0}
+  joysticksControls_ui:
+  - {fileID: 0}
