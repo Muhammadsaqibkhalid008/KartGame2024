@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2261356131021724537}
   - component: {fileID: 7195324860254339045}
-  - component: {fileID: 7409213797302500570}
   m_Layer: 0
   m_Name: Area
   m_TagString: Untagged
@@ -126,29 +125,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &7409213797302500570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190072209110556120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
 --- !u!1 &1353782399943754657
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7244717476647320879, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 341623d89bd57b34aa5f796942179ecb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -293,9 +269,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8846901876434282963, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: -3995724301315789915, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: -192000808741403669, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 504d049acafccb94e95e9f1d4cc0185e, type: 2}
+  - {fileID: 2100000, guid: 504d049acafccb94e95e9f1d4cc0185e, type: 2}
+  - {fileID: 2100000, guid: 504d049acafccb94e95e9f1d4cc0185e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -378,8 +354,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5636032469990474528, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: 6688406581918405711, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 504d049acafccb94e95e9f1d4cc0185e, type: 2}
+  - {fileID: 2100000, guid: 89d44bf526a86aa408dda51d6b654f99, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -570,7 +546,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1488719141294732173}
   - component: {fileID: 5283361493161272727}
-  - component: {fileID: 36592257148973453}
   m_Layer: 0
   m_Name: Area.002
   m_TagString: Untagged
@@ -655,29 +630,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &36592257148973453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2433260832684895153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
 --- !u!1 &2842498959312524431
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,9 +691,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6741693305336484498, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: 4250972779551834545, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: -4532758957498553600, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 8a7b8bcf9aa9fd94b83e600b2059ea0c, type: 2}
+  - {fileID: 2100000, guid: 95301c14e88ef30459d6bb63b2ab296b, type: 2}
+  - {fileID: 2100000, guid: b0d8d2a5f2653e249a8ac3b500bc83d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10605,7 +10557,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -192000808741403669, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 077e5cfd4659313478a077a3ddd9cc7f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10637,7 +10589,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7823178198471458235}
   - component: {fileID: 122503098970589141}
-  - component: {fileID: 4525555887990809910}
   m_Layer: 0
   m_Name: Area.001
   m_TagString: Untagged
@@ -10722,29 +10673,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &4525555887990809910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3257143147986458458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
 --- !u!1 &4086866579941136384
 GameObject:
   m_ObjectHideFlags: 0
@@ -10755,7 +10683,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4711858985465702665}
   - component: {fileID: 5017505837422740584}
-  - component: {fileID: 3229088090595945755}
   m_Layer: 0
   m_Name: Area.004
   m_TagString: Untagged
@@ -10829,7 +10756,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -10840,29 +10767,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &3229088090595945755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4086866579941136384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
 --- !u!1 &4127247845115590476
 GameObject:
   m_ObjectHideFlags: 0
@@ -10955,7 +10859,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4418572348006011840, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: da9fcb9d1aa881f40b84402ac6f2579f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11038,8 +10942,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 319753842601175458, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
-  - {fileID: 7335490480460125400, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: b0d8d2a5f2653e249a8ac3b500bc83d8, type: 2}
+  - {fileID: 2100000, guid: 95301c14e88ef30459d6bb63b2ab296b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11201,7 +11105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -874164558550236988, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: 4ed9912d9c16a0149b1b372af49e5cf5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11264,7 +11168,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4801024852178789087}
   - component: {fileID: 1568567165272195641}
-  - component: {fileID: 4899364589295885357}
   m_Layer: 0
   m_Name: Area.003
   m_TagString: Untagged
@@ -11338,7 +11241,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -11349,29 +11252,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &4899364589295885357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7667049690384541722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
 --- !u!1 &7845716307484870804
 GameObject:
   m_ObjectHideFlags: 0
@@ -11539,7 +11419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4137706188410003709, guid: 3e2776ab549d0d947829f201a058b4df, type: 3}
+  - {fileID: 2100000, guid: b0d8d2a5f2653e249a8ac3b500bc83d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

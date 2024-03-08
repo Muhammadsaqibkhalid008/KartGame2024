@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: i8 consultancy
   productName: Karts Arena
-  defaultCursor: {fileID: 2800000, guid: f01f9850c477fa64daf17f150e373b14, type: 3}
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.09411766, g: 0.14117648, b: 0.15686275, a: 1}
   m_ShowUnitySplashScreen: 1
