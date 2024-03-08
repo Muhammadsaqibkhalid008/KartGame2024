@@ -8,6 +8,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -19,14 +20,16 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] ParticleSystem destroyEffect;
     [Tooltip("scriptable object for ui data")]
     [SerializeField] UI_Data ui_data;
-    [SerializeField] TMP_Text coinText;
+   // [SerializeField] TMP_Text coinText;
+    public Text CoinsText;
     [SerializeField] ParticleSystem coinCollectionEffect;
 
     [Header("settings for ui coin")]
     [Tooltip("Both of these texts are tagged as afterDeathUI")]
-    [SerializeField] private TMP_Text totalCoinsCollected;
-    [SerializeField] private TMP_Text totalEnemiesKilled;
-
+ //   [SerializeField] private TMP_Text totalCoinsCollected;
+  //  [SerializeField] private TMP_Text totalEnemiesKilled;
+    public Text TotalCoinsCollect;
+    public Text TotalEnemiesKill;
 
     // private members
     private float reachValue = 0;
@@ -50,7 +53,8 @@ public class PlayerUI : MonoBehaviour
         this.mysteriousBoxEffector = GetComponent<MysteriousBoxEffector>();
 
         coinCollectionEffect.Stop();
-        coinText.text = "0";
+      //  coinText.text = "0";
+        CoinsText.text = "0";
         totalCoins = 0;
         this.gameStarter = GameObject.FindObjectOfType<GameStarter>();
         kart = GetComponent<Kart>();
@@ -121,7 +125,8 @@ public class PlayerUI : MonoBehaviour
 
             // upadte the coin Ui
             totalCoins++;
-            coinText.text = totalCoins.ToString();
+        //    coinText.text = totalCoins.ToString();
+            CoinsText.text = totalCoins.ToString();
         }
     }
 
@@ -137,8 +142,10 @@ public class PlayerUI : MonoBehaviour
         ui_data.totalCoins += this.totalCoins;
         this.gameStarter.DisplayGameOverPanel();
 
-        this.totalCoinsCollected.text = "Total coins collected " + this.totalCoins.ToString();
-        this.totalEnemiesKilled.text = "Total enemies killed " + ui_data.totalEnemiesKilled.ToString();
+       // this.totalCoinsCollected.text = "Total coins collected " + this.totalCoins.ToString();
+        this.TotalCoinsCollect.text = "Total coins collected " + this.totalCoins.ToString();
+      //  this.totalEnemiesKilled.text = "Total enemies killed " + ui_data.totalEnemiesKilled.ToString();
+        this.TotalEnemiesKill.text = "Total enemies killed " + ui_data.totalEnemiesKilled.ToString();
         saveLoadManager.SaveData();
     }
 }

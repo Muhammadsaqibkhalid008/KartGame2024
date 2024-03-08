@@ -5,18 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/_07 Scenes/SplashScreen.unity
+  - enabled: 0
+    path: Assets/_07 Scenes/New/SplashScreen.unity
     guid: d73a560d31f44fd459038834508ebc9b
   - enabled: 1
-    path: Assets/_07 Scenes/SelectionScene.unity
-    guid: 19f6a213b2273604c8acc7d8e231d4cf
-  - enabled: 1
-    path: Assets/_07 Scenes/trainingAreaScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/_07 Scenes/Desert_new.unity
-    guid: 97517521cd16747dfbbed9ab0d30d79a
+    path: Assets/_07 Scenes/New/SelectionScene.unity
+    guid: b03494dcd0414124aaf3194db0b2bbe8
+  - enabled: 0
+    path: Assets/_07 Scenes/New/trainingAreaScene.unity
+    guid: 15031fa57023e4441b269ba70afc85cb
+  - enabled: 0
+    path: Assets/_07 Scenes/New/Desert_new.unity
+    guid: f4046e67670775848a807788b7894106
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 6007b359603e35b40a07db0a4c1fb562,
       type: 2}
